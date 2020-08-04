@@ -66,3 +66,6 @@ $RECYCLE.BIN/
 /bin/
 /New Text Document.txt
 target
+/NMSLibrary_API/.settings
+/NMSLibrary_Plugin/.settings
+/NMSLibrary_v1_14_R1/.settings
