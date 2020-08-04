@@ -1,0 +1,5 @@
+name: NMSLibrary
+version: ${project.version}
+main: remvn.nmslibrary.NMSLibrary
+author: RemVN
+

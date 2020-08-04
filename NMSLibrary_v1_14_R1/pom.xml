@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>remvn.nmslibrary</groupId>
+		<artifactId>NMSLibrary</artifactId>
+		<version>parent</version>
+	</parent>
+	<artifactId>NMSLibrary_v1_14_R1</artifactId>
+	<version>v1_14_R1</version>
+	<dependencies>
+		<!--
+			Deo ai host craftbukkit nen phai cai spigot tay
+			mvn install:install-file -DgroupId=org.spigotmc -DartifactId=spigot -Dversion=1.14.4 -Dpackaging=jar -Dfile=spigot-1.14.4.jar
+		-->
+		<dependency>
+			<groupId>org.spigotmc</groupId>
+			<artifactId>spigot</artifactId>
+			<version>1.14.4</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>remvn.nmslibrary</groupId>
+			<artifactId>NMSLibrary_API</artifactId> <!-- Depend on the API! -->
+			<version>API</version>
+			<type>jar</type>
+		</dependency>
+	</dependencies>
+</project>
