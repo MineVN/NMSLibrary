@@ -26,6 +26,24 @@
 			<scope>provided</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>remvn.nmslibrary</groupId>
+			<artifactId>NMSLibrary_VERSION</artifactId>
+			<version>VERSION</version>
+		</dependency>
+
+		<dependency>
+			<groupId>remvn.nmslibrary</groupId>
+			<artifactId>NMSLibrary_v1_12_R1</artifactId>
+			<version>v1_12_R1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>remvn.nmslibrary</groupId>
+			<artifactId>NMSLibrary_v1_14_R1</artifactId>
+			<version>v1_14_R1</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -59,9 +77,9 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
 				<version>3.2.0</version>
-<!-- 				<configuration>
+				<configuration>
 					<outputDirectory>C:/Users/Remre/Desktop/SERVER TEST/1.14.4/plugins</outputDirectory>
-				</configuration> -->
+				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

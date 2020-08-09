@@ -6,24 +6,15 @@
 		<artifactId>NMSLibrary</artifactId>
 		<version>parent</version>
 	</parent>
-	<artifactId>NMSLibrary_v1_12_R1</artifactId>
-	<version>v1_12_R1</version>
+	<artifactId>NMSLibrary_VERSION</artifactId>
+	<version>VERSION</version>
+
 	<dependencies>
-		<!--
-			Deo ai host craftbukkit nen phai cai spigot tay
-			mvn install:install-file -DgroupId=org.spigotmc -DartifactId=spigot -Dversion=1.14.4 -Dpackaging=jar -Dfile=spigot-1.14.4.jar
-		-->
 		<dependency>
 			<groupId>org.spigotmc</groupId>
-			<artifactId>spigot</artifactId>
-			<version>1.12.2</version>
+			<artifactId>spigot-api</artifactId>
+			<version>1.16.1-R0.1-SNAPSHOT</version>
 			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>remvn.nmslibrary</groupId>
-			<artifactId>NMSLibrary_VERSION</artifactId>
-			<version>VERSION</version>
-			<type>jar</type>
 		</dependency>
 	</dependencies>
 </project>

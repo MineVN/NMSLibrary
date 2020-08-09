@@ -1,4 +1,4 @@
-package remvn.nmslibrary;
+package remvn.nmslibrary.version_api;
 
 public interface NMS {
 

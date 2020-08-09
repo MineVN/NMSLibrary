@@ -1,8 +1,8 @@
 package remvn.nmslibrary.v1_12_R1;
 
-import remvn.nmslibrary.EntityNMS;
-import remvn.nmslibrary.NBT;
-import remvn.nmslibrary.NMS;
+import remvn.nmslibrary.version_api.EntityNMS;
+import remvn.nmslibrary.version_api.NBT;
+import remvn.nmslibrary.version_api.NMS;
 
 public class NMSHandler implements NMS {
 

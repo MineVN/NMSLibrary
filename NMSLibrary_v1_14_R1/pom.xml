@@ -21,9 +21,9 @@
 		</dependency>
 		<dependency>
 			<groupId>remvn.nmslibrary</groupId>
-			<artifactId>NMSLibrary_API</artifactId>
-			<version>1.0</version>
-			<scope>provided</scope>
+			<artifactId>NMSLibrary_VERSION</artifactId>
+			<version>VERSION</version>
+			<type>jar</type>
 		</dependency>
 	</dependencies>
 </project>

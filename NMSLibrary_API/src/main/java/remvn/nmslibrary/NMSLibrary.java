@@ -2,6 +2,8 @@ package remvn.nmslibrary;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
+import remvn.nmslibrary.version_api.NMS;
+
 public class NMSLibrary extends JavaPlugin {
 
 	static NMS nms;

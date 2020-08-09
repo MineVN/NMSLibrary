@@ -24,5 +24,6 @@
 		<module>NMSLibrary_API</module>
 		<module>NMSLibrary_v1_14_R1</module>
 		<module>NMSLibrary_v1_12_R1</module>
+		<module>NMSLibrary_VERSION</module>
 	</modules>
 </project>
