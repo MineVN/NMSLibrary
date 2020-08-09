@@ -23,4 +23,4 @@
 ```
 
 # How to use 
-Javadoc: [latest](https://jitpack.io/com/github/USER/REPO/latest/javadoc/)
+Javadoc: [latest](https://jitpack.io/com/github/RemVN/NMSLibrary/latest/javadoc/)
