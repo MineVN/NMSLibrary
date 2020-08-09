@@ -1,13 +1,13 @@
-package remvn.nmslibrary.v1_14_R1;
+package remvn.nmslibrary.v1_12_R1;
 
 
-import org.bukkit.craftbukkit.v1_14_R1.inventory.CraftItemStack;
-import net.minecraft.server.v1_14_R1.ItemStack;
-import net.minecraft.server.v1_14_R1.NBTTagCompound;
+import org.bukkit.craftbukkit.v1_12_R1.inventory.CraftItemStack;
+
+import net.minecraft.server.v1_12_R1.ItemStack;
+import net.minecraft.server.v1_12_R1.NBTTagCompound;
 import remvn.nmslibrary.NBT;
 
 public class NBTHandler implements NBT {
-
 	
     public NBTTagCompound getTag(org.bukkit.inventory.ItemStack item) {
         ItemStack itemNMS = CraftItemStack.asNMSCopy(item);
@@ -65,5 +65,6 @@ public class NBTHandler implements NBT {
         NBTTagCompound tag = getTag(item);
         return tag.getDouble(key);
     }
+
 
 }

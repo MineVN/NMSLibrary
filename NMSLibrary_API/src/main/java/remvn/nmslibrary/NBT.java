@@ -6,7 +6,7 @@ public interface NBT {
 	
     void addStringTag(ItemStack item, String key, String value);
     void addIntTag(ItemStack item, String key, int value);
-    void addDoubleTag(ItemStack item, String key, int value);
+    void addDoubleTag(ItemStack item, String key, double value);
 
     boolean hasKey(ItemStack item, String key);
 
