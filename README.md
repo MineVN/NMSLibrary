@@ -11,7 +11,7 @@
 		    <url>https://jitpack.io</url>
 		</repository>
 	</repositories>
-```
+  ```
 
 ```markup
 	<dependency>
@@ -23,4 +23,30 @@
 ```
 
 # How to use 
-Javadoc: [latest](https://jitpack.io/com/github/RemVN/NMSLibrary/latest/javadoc/)
+- **Javadoc:** [latest](https://javadoc.jitpack.io/com/github/RemVN/NMSLibrary/NMSLibrary/1.3/javadoc/)
+
+#### I. Depend it in your plugins.yml:
+
+  `depend: [NMSLibrary]`
+
+#### II. Usage
+
+> Adding a String tag to ItemStack
+>
+
+```java
+		ItemStack item = new ItemStack(Material.DIAMOND_SWORD);
+		NBT nbt = NMSLibrary.getAPI().getNBT();
+		nbt.addStringTag(item, "TagName", "TagValue");
+```
+> Getting a String tag from ItemStack
+>
+
+```java
+		ItemStack item = new ItemStack(Material.DIAMOND_SWORD);
+		NBT nbt = NMSLibrary.getAPI().getNBT();
+		String value = nbt.getStringTag(item, "TagName");
+```
+
+
+
