@@ -1,5 +1,0 @@
-install:
-   - echo "Running a custom install command"
-   - ./mvnw build
-   - ./mvnw javadoc:javadoc
-   
