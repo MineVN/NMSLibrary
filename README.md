@@ -17,8 +17,8 @@
 	<dependency>
 	    <groupId>com.github.RemVN.NMSLibrary</groupId>
 	    <artifactId>NMSLibrary_API</artifactId>
-	    <version>1.2</version>
-  		<scope>provided</scope>
+	    <version>1.3</version>
+	    <spoce>provided</scope>
 	</dependency>
 ```
 
