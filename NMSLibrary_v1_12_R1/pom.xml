@@ -9,24 +9,6 @@
 	<artifactId>NMSLibrary_v1_12_R1</artifactId>
 	<version>v1_12_R1</version>
 	<dependencies>
-		<!--
-			Deo ai host craftbukkit nen phai cai spigot tay
-			mvn install:install-file -DgroupId=org.spigotmc -DartifactId=spigot -Dversion=1.14.4 -Dpackaging=jar -Dfile=spigot-1.14.4.jar
-		-->
-		<!-- <dependency>
-			<groupId>org.spigotmc</groupId>
-			<artifactId>spigot</artifactId>
-			<version>1.12.2</version>
-			<scope>provided</scope>
-			</dependency> -->
-
-		<!-- <dependency>
-			<groupId>remvn</groupId>
-			<artifactId>CraftBukkit_v1_12_R1</artifactId>
-			<version>1.0</version>
-			<scope>provided</scope>
-			</dependency> -->
-
 		<dependency>
 			<groupId>com.github.RemVN.CraftBukkit</groupId>
 			<artifactId>CraftBukkit_v1_12_R1-craftbukkit-1.12.2.jar</artifactId>

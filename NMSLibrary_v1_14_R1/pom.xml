@@ -9,16 +9,6 @@
 	<artifactId>NMSLibrary_v1_14_R1</artifactId>
 	<version>v1_14_R1</version>
 	<dependencies>
-		<!--
-			Deo ai host craftbukkit nen phai cai spigot tay
-			mvn install:install-file -DgroupId=org.spigotmc -DartifactId=spigot -Dversion=1.14.4 -Dpackaging=jar -Dfile=spigot-1.14.4.jar
-		-->
-		<dependency>
-			<groupId>org.spigotmc</groupId>
-			<artifactId>spigot</artifactId>
-			<version>1.14.4</version>
-			<scope>provided</scope>
-		</dependency>
 
 		<dependency>
 			<groupId>remvn.nmslibrary</groupId>
