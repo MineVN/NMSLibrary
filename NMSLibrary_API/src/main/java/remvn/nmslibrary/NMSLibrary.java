@@ -35,4 +35,11 @@ public class NMSLibrary extends JavaPlugin {
 		return nms;
 	}
 	
+	public void test1(String test1) {
+		
+	}
+	
+	public static void test2(String test2) {
+		
+	}
 }
