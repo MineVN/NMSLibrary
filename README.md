@@ -1,7 +1,7 @@
 
 # Installation
-Copy NMSLibrary.jar to plugins folder 
-Download here: [releases](https://github.com/RemVN/NMSLibrary/releases)
+- Copy NMSLibrary.jar to plugins folder 
+- Download here: [releases](https://github.com/RemVN/NMSLibrary/releases) 
 # Maven
 
   ```markup
