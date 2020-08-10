@@ -42,6 +42,14 @@
 		<finalName>${project.parent.artifactId}-${project.version}</finalName>
 		<!-- Resources -->
 		<resources>
+			<!-- plugin.yml -->
+			<resource>
+				<directory>${project.basedir}</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>*.yml</include>
+				</includes>
+			</resource>
 			<resource>
 				<directory>src/main/resources</directory>
 			</resource>

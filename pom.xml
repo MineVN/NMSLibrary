@@ -43,7 +43,7 @@
 		</resources>
 
 		<plugins>
-			<plugin>
+<!-- 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
 				<version>3.2.0</version>
@@ -55,14 +55,14 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin> -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
 				<version>3.2.0</version>
 				<inherited>false</inherited>
 				<configuration>
-					<aggregate>true</aggregate>
+<!-- 					<aggregate>true</aggregate> -->
 				</configuration>
 				<executions>
 					<execution>
