@@ -1,45 +1,56 @@
 package remvn.nmslibrary;
 
+import java.util.logging.Logger;
+
+import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import remvn.nmslibrary.version_api.NMS;
 
 public class NMSLibrary extends JavaPlugin {
 
+	public static Logger logger = Logger.getLogger("NMSLibrary");
+	
 	static NMS nms;
 	
 	public void onEnable() {
-		String packageName = this.getServer().getClass().getPackage().getName();
-		String version = packageName.substring(packageName.lastIndexOf('.') + 1);
-		try {
-			Class<?> clazz = Class.forName("remvn.nmslibrary." + version + ".NMSHandler");
-			nms = (NMS) clazz.newInstance();
-		} catch (ClassNotFoundException | InstantiationException | IllegalAccessException e) {
-            e.printStackTrace();
-            this.getLogger().severe("Could not find support for this CraftBukkit version.");
-            this.setEnabled(false);
-            return;
+		initNMSHandler();
+	}
+	
+	public static NMS getNMS(String version) {
+		switch (version) {
+		case "v1_12_R1":
+			return new remvn.nmslibrary.v1_12_R1.NMSHandler();
+		case "v1_14_R1": 
+			return new remvn.nmslibrary.v1_14_R1.NMSHandler();
+		default:
+			return null;
 		}
-		this.getLogger().info("Loading support for " + version);
+	}
+	
+	public static boolean shade() {
+		if(!initNMSHandler()) return false;
+		return true;
+	}
+	
+	public static boolean initNMSHandler() {
+		String packageName = Bukkit.getServer().getClass().getPackage().getName();
+		String version = packageName.substring(packageName.lastIndexOf('.') + 1);
+		nms = getNMS(version);
+		if(nms == null) {
+			logger.severe("Could not find support for this CraftBukkit version.");
+			return false;
+		}
+		logger.info("Loading support for " + version);		
+		return true;
 	}
 
 	public void onDisable() {
 
 	}
 
-	public NMS getNms() {
-		return nms;
-	}
-	
 	public static NMS getAPI() {
 		return nms;
 	}
 	
-	public void test1(String test1) {
-		
-	}
-	
-	public static void test2(String test2) {
-		
-	}
 }
