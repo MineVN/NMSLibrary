@@ -23,6 +23,8 @@ public class NMSLibrary extends JavaPlugin {
 			return new remvn.nmslibrary.v1_12_R1.NMSHandler();
 		case "v1_14_R1": 
 			return new remvn.nmslibrary.v1_14_R1.NMSHandler();
+		case "v1_16_R3":
+			return new remvn.nmslibrary.v1_16_R3.NMSHandler();
 		default:
 			return null;
 		}

@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>remvn.nmslibrary</groupId>
+		<artifactId>NMSLibrary</artifactId>
+		<version>parent</version>
+	</parent>
+	<artifactId>NMSLibrary_v1_16_R3</artifactId>
+	<version>v1_16_R3</version>
+	<dependencies>
+
+		<dependency>
+			<groupId>remvn.nmslibrary</groupId>
+			<artifactId>NMSLibrary_VERSION</artifactId>
+			<version>VERSION</version>
+			<type>jar</type>
+		</dependency>
+
+		<dependency>
+			<groupId>com.github.RemVN.CraftBukkit</groupId>
+			<artifactId>CraftBukkit_v1_16_R3-craftbukkit-1.16.4.jar</artifactId>
+			<version>1.6</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<!-- Resources -->
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+			<!-- OpenSource -->
+			<resource>
+				<directory>${project.build.sourceDirectory}</directory>
+				<!-- Enable filtering to open source -->
+				<filtering>true</filtering>
+			</resource>
+		</resources>
+	</build>
+</project>

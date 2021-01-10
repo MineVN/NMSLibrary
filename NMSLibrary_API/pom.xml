@@ -36,6 +36,12 @@
 			<version>v1_14_R1</version>
 		</dependency>
 
+		<dependency>
+			<groupId>remvn.nmslibrary</groupId>
+			<artifactId>NMSLibrary_v1_16_R3</artifactId>
+			<version>v1_16_R3</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -66,7 +72,7 @@
 				<artifactId>maven-jar-plugin</artifactId>
 				<version>3.2.0</version>
 				<configuration>
-					<outputDirectory>G:/My Drive/Home/Dev/SERVER TEST/1.14.4/plugins</outputDirectory>
+					<outputDirectory>D:/Server test/1.16.4/compiled</outputDirectory>
 				</configuration>
 			</plugin>
 		</plugins>
