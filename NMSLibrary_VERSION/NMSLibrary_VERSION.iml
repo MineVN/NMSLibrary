@@ -9,4 +9,13 @@
       <src_folder value="file://$MODULE_DIR$/src/test/resources" expected_position="3" />
     </src_description>
   </component>
+  <component name="FacetManager">
+    <facet type="minecraft" name="Minecraft">
+      <configuration>
+        <autoDetectTypes>
+          <platformType>SPIGOT</platformType>
+        </autoDetectTypes>
+      </configuration>
+    </facet>
+  </component>
 </module>
