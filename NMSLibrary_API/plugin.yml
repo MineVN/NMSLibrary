@@ -1,6 +1,5 @@
 name: NMSLibrary
 version: ${project.version}
 main: remvn.nmslibrary.NMSLibrary
-api-version: 1.16
 author: RemVN
 
