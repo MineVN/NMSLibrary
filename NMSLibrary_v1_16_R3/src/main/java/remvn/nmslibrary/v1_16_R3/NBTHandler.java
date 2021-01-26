@@ -1,10 +1,9 @@
 package remvn.nmslibrary.v1_16_R3;
 
 
-import org.bukkit.craftbukkit.v1_16_R3.inventory.CraftItemStack;
-
 import net.minecraft.server.v1_16_R3.ItemStack;
 import net.minecraft.server.v1_16_R3.NBTTagCompound;
+import org.bukkit.craftbukkit.v1_16_R3.inventory.CraftItemStack;
 import remvn.nmslibrary.version_api.NBT;
 
 public class NBTHandler implements NBT {
