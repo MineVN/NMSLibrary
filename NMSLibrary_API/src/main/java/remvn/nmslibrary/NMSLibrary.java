@@ -1,10 +1,11 @@
 package remvn.nmslibrary;
 
+import java.util.logging.Logger;
+
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
-import remvn.nmslibrary.version_api.NMS;
 
-import java.util.logging.Logger;
+import remvn.nmslibrary.version_api.NMS;
 
 public class NMSLibrary extends JavaPlugin {
 
