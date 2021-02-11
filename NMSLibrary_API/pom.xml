@@ -8,6 +8,10 @@
 	</parent>
 	<artifactId>NMSLibrary_API</artifactId>
 	<version>1.3</version>
+	
+	<properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
 	<dependencies>
 

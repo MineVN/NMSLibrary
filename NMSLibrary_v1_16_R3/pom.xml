@@ -9,6 +9,11 @@
 	</parent>
 	<artifactId>NMSLibrary_v1_16_R3</artifactId>
 	<version>v1_16_R3</version>
+
+	<properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+	
 	<dependencies>
 
 		<dependency>

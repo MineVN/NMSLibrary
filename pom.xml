@@ -9,6 +9,10 @@
 	<description>plugin for nms</description>
 	<packaging>pom</packaging>
 
+	<properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
 	<repositories>
 		<!-- This adds the Spigot Maven repository to the build -->
 		<repository>

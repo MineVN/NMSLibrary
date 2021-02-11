@@ -8,8 +8,12 @@
 	</parent>
 	<artifactId>NMSLibrary_v1_14_R1</artifactId>
 	<version>v1_14_R1</version>
-	<dependencies>
 
+	<properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+	
+	<dependencies>
 		<dependency>
 			<groupId>remvn.nmslibrary</groupId>
 			<artifactId>NMSLibrary_VERSION</artifactId>
